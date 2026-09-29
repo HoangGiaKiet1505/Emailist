@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <Resource
+            name="jdbc/murach"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            url="jdbc:sqlserver://localhost;instanceName=SQLEXPRESS;databaseName=emaillist;encrypt=false;trustServerCertificate=true"
+            username="sa"
+            password="sa12345"
+            maxTotal="20"
+            maxIdle="10"
+            maxWaitMillis="10000"
+    />
+
+</Context>
